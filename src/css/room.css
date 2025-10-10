@@ -1,0 +1,89 @@
+.room-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f8fafc; /* light background */
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.room-list h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #1e293b; /* slate-800 */
+}
+
+.room-list form {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.room-list input[type="text"] {
+  padding: 0.5rem 1rem;
+  border: 2px solid #cbd5e1; /* slate-300 */
+  border-radius: 0.5rem;
+  width: 60%;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.room-list input[type="text"]:focus {
+  border-color: #3b82f6; /* blue-500 */
+  outline: none;
+}
+
+.room-list button {
+  padding: 0.5rem 1.2rem;
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.room-list button:hover {
+  background-color: #2563eb; /* blue-600 */
+  transform: scale(1.02);
+}
+
+.room-list button:disabled {
+  background-color: #94a3b8; /* slate-400 */
+  cursor: not-allowed;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.room-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0; /* slate-200 */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.room-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.room-card h3 {
+  font-size: 1.25rem;
+  color: #0f172a; /* slate-900 */
+  margin-bottom: 0.25rem;
+}
+
+.room-card p {
+  color: #475569; /* slate-600 */
+  font-size: 0.95rem;
+}

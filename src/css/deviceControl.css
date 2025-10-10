@@ -1,0 +1,75 @@
+.device-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+}
+
+.device-card.active {
+  border-left: 4px solid var(--success);
+}
+
+.device-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.device-card p {
+  margin: 0.25rem 0;
+  color: var(--gray-dark);
+}
+
+.device-control {
+  margin: 1rem 0;
+}
+
+.device-control p {
+  margin-bottom: 0.5rem;
+}
+
+.device-control input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.device-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.device-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.device-actions button:not(.delete-btn) {
+  background-color: var(--primary);
+  color: white;
+}
+
+.device-actions button:not(.delete-btn):hover {
+  background-color: var(--secondary);
+}
+
+.delete-btn {
+  background-color: var(--warning);
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #d11a6b;
+}
+
+.device-card input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
+}
