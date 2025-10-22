@@ -1,18 +1,18 @@
-Here’s your **Smart Home project README** rewritten in a clean, professional, and well-structured manner 👇
+# 🏠 Smart Home System
+
+### 🔗 **Live Demo:** [smart-home-ankit-kumar.netlify.app](https://smart-home-ankit-kumar.netlify.app)
 
 ---
 
-## 🏠 Smart Home System
+## 📋 **Description**
 
-### 📋 **Description**
+The **Smart Home System** is a modern web application built using **React** and **Firebase Firestore**, designed to help users **control and monitor their home devices** in real time.
 
-The **Smart Home System** is a web application built using **React** and **Firebase Firestore**, designed to help users **control and monitor their home devices** in real time.
-
-Users can easily manage devices such as **TV, AC, Fan, and Lights**, directly from the web interface. The application provides an intuitive and responsive dashboard for seamless device management and interaction.
+It allows users to easily manage appliances like **TV, AC, Fan, and Lights** from a single, responsive dashboard. The system ensures smooth performance, secure access, and real-time updates — making home automation simple and efficient.
 
 ---
 
-### ⚙️ **Tech Stack**
+## ⚙️ **Tech Stack**
 
 * **Frontend:** React.js
 * **Backend & Database:** Firebase Firestore
@@ -21,44 +21,80 @@ Users can easily manage devices such as **TV, AC, Fan, and Lights**, directly fr
 
 ---
 
-### 🚀 **Features**
+## 🚀 **Features**
 
-✅ Real-time device control and monitoring
-✅ Secure user authentication with Firebase
-✅ Responsive and user-friendly dashboard
-✅ Real-time updates using Firestore
-
----
-
-### 🧩 **Upcoming Features**
-
-🔹 **Electricity Usage Reports:**
-Users will be able to view detailed usage reports of their power consumption (Bijli bills) and receive AI-based suggestions to help reduce electricity usage.
-
-🔹 **Smart Routing System:**
-Users can organize and manage their devices based on specific rooms or routes for better control and accessibility.
-
-🔹 **Mock Device Controls:**
-Simulate device operations (like turning ON/OFF, adjusting speed, brightness, etc.) for a more realistic experience.
+✅ Real-time device control (ON/OFF, toggle actions)
+✅ Live sync with Firebase Firestore
+✅ Secure login/signup using Firebase Auth
+✅ Clean, responsive UI built with React
+✅ Real-time status updates for all devices
 
 ---
 
-### 💡 **Future Improvements**
+## 🧩 **Upcoming Features**
 
-* Integration with IoT devices for live hardware control
-* Add voice command support using Google Assistant or Alexa
-* Data visualization using charts and graphs for electricity usage
-
----
-
-### 🔗 **Live Demo:**
-
-[Smart Home System on Netlify](https://smart-home-ankit-kumar.netlify.app/)
-
-### 🧑‍💻 **GitHub Repository:**
-
-[Smart Home - GitHub](https://github.com/masai-course/ankit_kumar_fs42_471001/tree/master/unit-4/BuildWeek/smartHome)
+🔹 **Electricity Usage Reports** – View detailed device power usage reports.
+🔹 **Smart Device Grouping** – Organize devices by rooms or categories.
+🔹 **Mock Device Controls** – Simulate ON/OFF, brightness, and speed adjustments.
 
 ---
 
- 
+## 💡 **Future Improvements**
+
+* Integration with real IoT devices for live control
+* Add voice command support (Google Assistant / Alexa)
+* Visual electricity usage insights via charts
+
+---
+
+## ⚙️ **Getting Started**
+
+### **Prerequisites**
+
+* Node.js (v16 or higher)
+* Firebase account
+* npm or yarn installed
+
+### **Setup Steps**
+
+```bash
+# Clone the repository
+git clone https://github.com/Ankitk0101/smart-home-system
+cd smart-home-system
+
+# Install dependencies
+npm install
+
+# Add your Firebase configuration in .env file
+cp .env.example .env
+
+# Start the app
+npm start
+```
+
+The application will run at:
+👉 **[http://localhost:3000](http://localhost:5173)**
+
+---
+
+## 🧱 **Project Structure**
+
+```
+smart-home-system/
+├─ public/
+├─ src/
+│  ├─ components/       # UI components
+│  ├─ context/          # Global state management
+│  ├─ firebase/         # Firebase setup
+│  ├─ pages/            # Dashboard & Auth pages
+│  ├─ App.js
+│  └─ index.js
+├─ .env.example
+└─ package.json
+```
+
+---
+
+⭐ **If you find this project helpful, consider giving it a star on GitHub!**
+
+---
